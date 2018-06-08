@@ -1,4 +1,18 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<button mat-raised-button color="primary"></button>
-<button mat-button color="primary"></button>
-<button mat-fab color="primary"></button>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav [mode]="over">
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+    <div class="header"><button mat-button class="menu-button" (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button></div>
+    <div><mat-card class="card-class">
+            <mat-card-header class="card-header">
+            </mat-card-header>
+            <mat-card-content class="card-content">
+            </mat-card-content>
+        </mat-card>
+    </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>

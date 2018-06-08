@@ -1,0 +1,35 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .example-radio-group {
+    display: block;
+    border: 1px solid #555;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .header{
+    position: absolute;
+    z-index: 0;
+    min-height:5vh;
+  }
+  .card-class{
+      min-height: 90vh;
+      min-width: 100vh;
+      position: relative;
+      margin-top: 5vh;
+      z-index: 1;
+  }
+  
+  .card-header{
+  }
+
+  .menu-button{
+      float:left;
+      min-height: 5vh;
+  }
