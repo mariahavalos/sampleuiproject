@@ -1,13 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {ReactiveFormsModule} from '@angular/forms';
+import {ReactiveFormsModule, FormsModule} from '@angular/forms';
 import { 
   MatButtonModule,
   MatRadioModule,
   MatSidenavModule,
   MatCheckboxModule,
   MatIconModule,
-  MatCardModule
+  MatCardModule,
+  MatInputModule,
+  MatFormFieldModule,
+  MatStepperModule,
+
  } from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
@@ -27,7 +31,11 @@ import { AppComponent } from './app.component';
     MatCheckboxModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatInputModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

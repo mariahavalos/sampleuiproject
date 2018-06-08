@@ -21,8 +21,7 @@
   }
 
   .card-class{
-      min-height: 50vh;
-      width: 50vh;
+      min-height: 100vh;
       position: relative;
       z-index: 1;
   }
@@ -50,4 +49,14 @@
 
   .title{
       min-height:5vh;
+  }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
   }
