@@ -25,5 +25,9 @@ export class AppComponent {
     });
   }
 
+  color = 'primary';
+  mode = 'determinate';
+  value = 50;
+
   title = 'app';
 }

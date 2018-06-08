@@ -3,7 +3,14 @@
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
 <mat-sidenav-container class="example-container">
-    <mat-sidenav #sidenav mode="over">
+    <mat-sidenav class="sample-sidenav" #sidenav mode="over">
+        <mat-list role="list">
+            <mat-list-item role="listitem">Item 1</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item role="listitem">Item 2</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item role="listitem">Item 3</mat-list-item>
+          </mat-list>
     </mat-sidenav>
   
       
@@ -112,6 +119,47 @@
                         </p>
                     </mat-card>
             </mat-card-content>
-        </mat-card>
+            <mat-card-content class="stepper-card">
+                  <mat-progress-spinner
+                    class="example-margin"
+                    [color]="color"
+                    [mode]="mode"
+                    [value]="value">
+                 </mat-progress-spinner>
+                <h2 class="example-h2">Progress spinner configuration</h2>
+          
+                <section class="example-section">
+                  <label class="example-margin">Color:</label>
+                  <mat-radio-group [(ngModel)]="color">
+                    <mat-radio-button class="example-margin" color="primary" value="primary">
+                      Primary
+                    </mat-radio-button>
+                    <mat-radio-button class="example-margin" color="primary" value="accent">
+                      Accent
+                    </mat-radio-button>
+                    <mat-radio-button class="example-margin" color="primary" value="warn">
+                      Warn
+                    </mat-radio-button>
+                  </mat-radio-group>
+                </section>
+            
+                <section class="example-section">
+                  <label class="example-margin">Mode:</label>
+                  <mat-radio-group [(ngModel)]="mode">
+                    <mat-radio-button class="example-margin" color="primary" value="determinate">
+                      Determinate
+                    </mat-radio-button>
+                    <mat-radio-button class="example-margin" color="primary" value="indeterminate">
+                      Indeterminate
+                    </mat-radio-button>
+                  </mat-radio-group>
+                </section>
+            
+                <section class="example-section" *ngIf="mode == 'determinate'">
+                  <label class="example-margin">Progress:</label>
+                  <mat-slider class="example-margin" color="primary" [(ngModel)]="value"></mat-slider>
+                </section>
+              </mat-card-content>
+            </mat-card>
     </mat-sidenav-content>
 </mat-sidenav-container>

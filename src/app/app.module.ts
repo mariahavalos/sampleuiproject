@@ -13,6 +13,9 @@ import {
   MatStepperModule,
   MatDividerModule,
   MatBadgeModule,
+  MatProgressSpinnerModule,
+  MatSliderModule,
+  MatListModule
 
  } from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -40,6 +43,9 @@ import { AppComponent } from './app.component';
     MatStepperModule,
     MatDividerModule,
     MatBadgeModule,
+    MatProgressSpinnerModule,
+    MatSliderModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -95,3 +95,11 @@
   .mat-card-content{
       display:inline;
   }
+
+  mat-progress-spinner{
+      margin-left: 25%;
+  }
+
+  .sample-sidenav{
+      width: 30vh !important;
+  }
