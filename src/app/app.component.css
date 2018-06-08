@@ -21,7 +21,7 @@
   }
 
   .card-class{
-      min-height: 100vh;
+      min-height: 90vh;
       position: relative;
       z-index: 1;
   }
@@ -50,13 +50,27 @@
   .title{
       min-height:5vh;
   }
-
-  .example-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;
-  }
   
   .example-full-width {
     width: 100%;
+  }
+
+  .avatar-card{
+      display:inline-flex;
+      float:right;
+      width:50%;
+  }
+
+  .stepper-card{
+      width:50%;
+      display:inline-flex;
+  }
+
+  .example-card{
+      min-width: 50%;
+  }
+
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
   }
