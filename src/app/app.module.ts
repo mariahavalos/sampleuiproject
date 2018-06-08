@@ -12,6 +12,7 @@ import {
   MatFormFieldModule,
   MatStepperModule,
   MatDividerModule,
+  MatBadgeModule,
 
  } from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -38,6 +39,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     MatStepperModule,
     MatDividerModule,
+    MatBadgeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

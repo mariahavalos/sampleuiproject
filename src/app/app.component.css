@@ -17,7 +17,7 @@
   .header{
     position: relative;
     min-height:5vh;
-    background-color:rgb(66, 150, 156);
+    background-color: rgb(77, 77, 182);
   }
 
   .card-class{
@@ -40,7 +40,7 @@
   }
 
   h2{
-    color: rgb(247, 235, 235);
+    color: white;
     margin: 0px;
     vertical-align:middle;
     padding:1vh;
@@ -56,21 +56,42 @@
   }
 
   .avatar-card{
-      display:inline-flex;
-      float:right;
       width:50%;
+      margin:0;
   }
 
   .stepper-card{
-      width:50%;
-      display:inline-flex;
+      position: absolute;
+      display: inline !important;
   }
 
   .example-card{
       min-width: 50%;
+      display:inline-block;
+      margin-right:5%;
   }
 
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
+  }
+
+  .mat-badge{
+      display:inline-flex;
+      float: right;
+  }
+
+  .card-actions{
+      display:inline-flex;
+      float:left;
+      margin: 0;
+      padding:0;
+  }
+
+  p{
+      text-align: center;
+  }
+
+  .mat-card-content{
+      display:inline;
   }
