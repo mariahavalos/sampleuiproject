@@ -17,15 +17,14 @@
   .header{
     position: relative;
     min-height:5vh;
-    background-color: rgb(56, 86, 82);
+    background-color:rgb(66, 150, 156);
   }
 
   .card-class{
-      min-height: 90vh;
-      min-width: 100vh;
+      min-height: 50vh;
+      width: 50vh;
       position: relative;
       z-index: 1;
-      background-color: #cfd6d5;
   }
   
   .sidenav-content{
@@ -35,4 +34,20 @@
   .menu-button{
       float:left;
       min-height: 5vh;
+  }
+
+  .menu-icon {
+      color:white;
+  }
+
+  h2{
+    color: rgb(247, 235, 235);
+    margin: 0px;
+    vertical-align:middle;
+    padding:1vh;
+    font-family: 'Abel', sans-serif;
+  }
+
+  .title{
+      min-height:5vh;
   }
