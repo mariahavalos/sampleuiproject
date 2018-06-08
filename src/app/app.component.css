@@ -4,6 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    min-width:100vh;
   }
   
   .example-radio-group {
@@ -14,19 +15,21 @@
   }
 
   .header{
-    position: absolute;
-    z-index: 0;
+    position: relative;
     min-height:5vh;
+    background-color: rgb(56, 86, 82);
   }
+
   .card-class{
       min-height: 90vh;
       min-width: 100vh;
       position: relative;
-      margin-top: 5vh;
       z-index: 1;
+      background-color: #cfd6d5;
   }
   
-  .card-header{
+  .sidenav-content{
+      min-width:100%;
   }
 
   .menu-button{

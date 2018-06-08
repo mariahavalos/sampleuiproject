@@ -8,7 +8,7 @@ import { FormControl } from '@angular/forms'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  mode = new FormControl('over');
+  opened: boolean;
 
   title = 'app';
 }
